@@ -145,7 +145,7 @@
         </div>
       </div>
       <!-- section 3 -->
-      <div class="relative px-6 lg:px-8">
+      < div class="relative px-6 lg:px-8">
         <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
           <div>
             <div class="hidden sm:mb-8 sm:flex sm:justify-center">
