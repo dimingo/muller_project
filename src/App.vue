@@ -52,6 +52,8 @@
     <main>
       <navbar />
       <hero />
+      <SectionComponent/>
+      <SectionComponent ></SectionComponent>
     </main>
   </div>
 </template>
@@ -60,15 +62,5 @@
 import { ref } from "vue";
 import navbar from "./components/layout/header/NavComponent.vue";
 import hero from "./components/layout/header/HeroComponent.vue";
-import { Dialog, DialogPanel } from "@headlessui/vue";
-import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
-
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
-];
-
-const mobileMenuOpen = ref(false);
+import SectionComponent from "./components/SectionComponent.vue";
 </script>

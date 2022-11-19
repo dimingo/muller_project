@@ -1,42 +1,35 @@
 <template>
-     <div class="relative px-6 lg:px-8">
-        <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
-          <div>
-            <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                <span class="text-gray-600">
-                  Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true" />Read more <span aria-hidden="true">&rarr;</span></a>
-                </span>
-              </div>
-            </div>
-            <div>
-              <h1 class="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">Data to enrich your online business</h1>
-              <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-              <div class="mt-8 flex gap-x-4 sm:justify-center">
-                <a href="#" class="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700">
-                  Get started
-                  <span class="text-indigo-200" aria-hidden="true">&rarr;</span>
-                </a>
-                <a href="#" class="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Live demo
-                  <span class="text-gray-400" aria-hidden="true">&rarr;</span>
-                </a>
-              </div>
-            </div>
-           
-            <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
-              <svg class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill="url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)" fill-opacity=".3" d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
-                <defs>
-                  <linearGradient id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc" x1="1155.49" x2="-78.208" y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#9089FC" />
-                    <stop offset="1" stop-color="#FF80B5" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-
+     <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24 ">
+			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
+				<h1 class="text-3xl md:text-5xl p-2 text-yellow-300 tracking-loose">TechFest</h1>
+				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Space : The Timeless Infinity
+				</h2>
+				<p class="text-sm md:text-base text-gray-50 mb-4"><span class="text-gray-600">
+                  We provide creative solutions to turn your ideas into digital reality. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true" />Read more <span aria-hidden="true">&rarr;</span></a>
+                </span>.</p>
+                <div class="flex ">
+                  <a href="#"
+					class="bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-white hover:border-transparent">
+					Explore Now</a>
+        
+          <a href="#"
+					class="bg-transparent  mx-3 hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border  border-white hover:border-transparent">
+					Explore Now</a>
+          
+                </div>
+				
+			</div>
+			<div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
+				<div class="h-48 flex flex-wrap content-center">
+					<div>
+						<img class="inline-block mt-28 hidden xl:block" src="https://user-images.githubusercontent.com/54521023/116969935-c13d5b00-acd4-11eb-82b1-5ad2ff10fb76.png"></div>
+						<div>
+							<img class="inline-block mt-24 md:mt-0 p-8 md:p-0"  src="https://user-images.githubusercontent.com/54521023/116969931-bedb0100-acd4-11eb-99a9-ff5e0ee9f31f.png"></div>
+							<div>
+								<img class="inline-block mt-28 hidden lg:block" src="https://user-images.githubusercontent.com/54521023/116969939-c1d5f180-acd4-11eb-8ad4-9ab9143bdb50.png"></div>
+							</div>
+						</div>
+					</div>
+         
+    
 </template>
