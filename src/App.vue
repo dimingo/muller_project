@@ -50,17 +50,12 @@
     </div>
 
     <main>
-      <navbar />
-      <hero />
-      <SectionComponent/>
-      <SectionComponent ></SectionComponent>
+     
+      <landing-view/>
     </main>
   </div>
 </template>
 
 <script setup>
-import { ref } from "vue";
-import navbar from "./components/layout/header/NavComponent.vue";
-import hero from "./components/layout/header/HeroComponent.vue";
-import SectionComponent from "./components/SectionComponent.vue";
+import LandingView from './views/LandingView.vue';
 </script>

@@ -37,22 +37,16 @@
         </p>
       </div>
     </div>
-  <div class="flex">
-
-    <SectionCard  />
-      <SectionCard />
-
-  </div>
-  <div class="flex">
-
-<SectionCard  />
-  <SectionCard />
-
-</div>
-   
-     
-     
-   
+    <slot name="content">
+      <div class="flex">
+        <SectionCard />
+        <SectionCard />
+      </div>
+      <div class="flex">
+        <SectionCard />
+        <SectionCard />
+      </div>
+    </slot>
   </div>
 </template>
 <script setup>
