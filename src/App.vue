@@ -49,13 +49,20 @@
       </svg>
     </div>
 
-    <main>
+    <main >
+   
+        <landing-view />
+
+
      
-      <landing-view/>
+     
     </main>
   </div>
-</template>
-
+</template> 
+<!-- <template>
+  <LandingTest />
+</template> -->
 <script setup>
 import LandingView from './views/LandingView.vue';
+// import LandingTest from './views/LandingTest.vue';
 </script>

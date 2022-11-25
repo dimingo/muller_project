@@ -5,6 +5,7 @@
       w-1/2
       m-auto
       flex
+     
       text-center
       relative
       overflow-hidden
