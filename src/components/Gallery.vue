@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto p-10 my-auto " >
+  <section class="container mx-auto p-10 my-auto">
     <div class="flex">
       <RecentWorks />
       <RecentWorks />

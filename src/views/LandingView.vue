@@ -10,19 +10,28 @@
       <Gallery />
     </template>
   </SectionComponent>
-  <section class="container  p-24">
+  <div class="container justify-center flex items-center lg:w-full md:w-full">
+    <h2 class="p-2 text-white text-5xl">
+      Brands we had priveledge to work with
+    </h2>
+  </div>
+
+  <section class="container m-24 m-auto justify-center items-center">
     <div class="flex">
-      <brands />
-      <brands />
-      <brands />
-      <brands />
+      <brands path="images/images/clients/volume.svg" />
+      <brands path="images/images/clients/snowflake.svg" />
+      <brands path="images/images/clients/vision.svg" />
+      <brands path="images/images/clients/pinpoint.svg" />
     </div>
     <div class="flex">
-      <brands />
-      <brands />
-      <brands />
-      <brands />
+      <brands path="images/images/clients/hitech.svg" />
+      <brands path="images/images/clients/flash.svg" />
+      <brands path="images/images/clients/proline.svg" />
+      <brands path="images/images/clients/rise.svg" />
     </div>
+  </section>
+  <section>
+    <carousel />
   </section>
 </template>
 
@@ -32,4 +41,5 @@ import Gallery from "../components/Gallery.vue";
 import navbar from "../components/layout/header/NavComponent.vue";
 import hero from "../components/layout/header/HeroComponent.vue";
 import brands from "../components/Brands.vue";
+import carousel from "../components/carousel.vue";
 </script>

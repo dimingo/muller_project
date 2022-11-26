@@ -1,20 +1,55 @@
 <template>
-  <div class="lg:px-6 py-12" :class="background">
+  <div class="lg:px-6 p-24" :class="background">
     <div class="container mx-auto flex flex-col md:flex-row items-center p-8">
       <div class="flex flex-col w-full lg:w-1/2 justify-center items-start">
-        <h1 class="font-regular text-6xl px-auto text-gray-300 tracking-loose">
-          02
-        </h1>
-        <h2
-          class="text-4xl leading-relaxed md:leading-snug mb-2 ml-n2"
-          :class="text"
-        >
-          Muller is a branding agency in Somewhere. We shape brand idntities and
-          design thoughtful digital experiences
-        </h2>
+        <div>
+          <h1
+            class="font-regular text-6xl px-auto text-gray-300 tracking-loose"
+          >
+            02
+          </h1>
+
+          <h3
+            class="
+              text-xl
+              -mt-24
+              -ml-1
+              px-auto px-2
+              w-34
+              h-8
+              font-regular
+              tracking-widest
+              text-orange-600
+              justify-center
+              items-center
+            "
+          >
+            WHAT WE DO
+          </h3>
+        </div>
+        <div class="mt-12">
+          <h2
+            class="text-4xl leading-relaxed md:leading-snug mb-2 -ml-2 "
+            :class="text"
+          >
+            Mueller is a branding agency based in Somewhere. We shape brand
+            identities and design thoughtful digital experiences.
+          </h2>
+        </div>
       </div>
+
       <div
-        class="flex flex-col w-full lg:w-1/2 justify-center items-start ml-6"
+        class="
+          flex flex-col
+          w-full
+          lg:w-1/2
+          justify-center
+          items-start
+          ml-6
+          mt-20
+          py-auto
+          pt-14
+        "
       >
         <h3 class="text-gray-400 text-2xl font-thin">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
