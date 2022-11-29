@@ -7,7 +7,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans-serif': ['Manrope'],
+      'sans': ['Manrope','sans-serif'],
+      'sans-serif': ['Inter','sans-serif'],
 
     },
     fontSize: {

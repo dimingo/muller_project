@@ -27,13 +27,16 @@
             WHAT WE DO
           </h3>
         </div>
+
         <div class="mt-12">
           <h2
-            class="text-4xl leading-relaxed md:leading-snug mb-2 -ml-2 "
+            class="text-4xl leading-relaxed md:leading-snug mb-2 -ml-2"
             :class="text"
           >
-            Mueller is a branding agency based in Somewhere. We shape brand
-            identities and design thoughtful digital experiences.
+            <slot name="leftTitle">
+              Mueller is a branding agency based in Somewhere. We shape brand
+              identities and design thoughtful digital experiences.
+            </slot>
           </h2>
         </div>
       </div>
@@ -51,11 +54,14 @@
           pt-14
         "
       >
-        <h3 class="text-gray-400 text-2xl font-thin">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
-          quisquam blanditiis assumenda natus sequi necessitatibus rem commodi
-          voluptate veniam id perferendis dolorem neque, labore, nesciunt illum.
-        </h3>
+        <slot name="rightTitle">
+          <h3 class="text-gray-400 text-2xl font-thin">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+            quisquam blanditiis assumenda natus sequi necessitatibus rem commodi
+            voluptate veniam id perferendis dolorem neque, labore, nesciunt
+            illum.
+          </h3>
+        </slot>
       </div>
     </div>
     <slot name="content">
